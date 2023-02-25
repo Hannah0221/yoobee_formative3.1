@@ -1,14 +1,64 @@
 $color_1: #222222;
 $color_2: #F7EDE1;
-$color_3: #F1C863;
+$color_3: #c8c8c8;
 $font-family_1: "Open Sans", "Helvetica Neue", sans-serif;
 $font-family_2: "Gentium Book Basic", Georgia, serif;
 $background-color_1: rgb(13,110,253);
+$Frame: tomato;
 
-body {
-	color: $color_1;
-	font-size: 1em;
-	font-family: $font-family_1;
+
+// body {
+// 	color: $color_1;
+// 	font-size: 1em;
+// 	font-family: $font-family_1;
+// }
+* {
+    margin: 0;
+}
+
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: $font-family_2;
+    margin-top: 30px;
+}
+p{
+    margin:20px 0
+}
+.w3-row-padding img {margin-bottom: 12px}
+
+.w3-row-padding {
+	img {
+		margin-bottom: 12px;
+		margin-bottom: 12px;
+	}
+}
+.w3-sidebar {
+	width: 120px;
+	background: $color_3;
+}
+#main {
+	margin-left: 120px;
+}
+@media only screen and (max-width: 600px) {
+	#main {
+		margin-left: 0;
+	}
+}
+
+.footer-icon {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .fa {
+        margin: 0 8px 0 8px;
+    }
+}
+
+.resume-btn{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
 }
 .content-footer {
 	text-align: center;
@@ -18,10 +68,9 @@ body {
 	background-color: $background-color_1;
 	text-decoration: none;
 	>p {
-		font-weight: 300;
-		letter-spacing: 0.05em;
-		font-weight: 300;
-		letter-spacing: 0.05em;
+        font-family: $font-family_1;
+		font-size: 1.2em;
+		letter-spacing: 0.08em;
 		color: $color_2;
 	}
 }
@@ -45,6 +94,8 @@ body {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
+
+  
 .masthead-intro {
 	text-align: center;
 	text-align: center;
@@ -53,7 +104,7 @@ body {
 	font-size: 2em;
 }
 .masthead {
-	padding: 6em 0;
+	padding: 3em 0;
 	background-image: url('https://i.imgur.com/9q4DtFb.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -137,6 +188,17 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	color: $color_3;
+}
+.css-is-deranged{
+    text-decoration: none;
+    margin: auto 15px;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    font-family: $font-family_1;
+}
+
+.contact-me{
+    padding:0;
 }
 @media only screen and (max-width: 500px) {
 	.masthead {

@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import AboutPage from "./components/AboutPage";
 
+
 const App = () => {
   const pageSize = 6;
   const apiKey = process.env.REACT_APP_NEWS_API;
