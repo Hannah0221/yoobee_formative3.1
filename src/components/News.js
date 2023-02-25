@@ -65,7 +65,6 @@ const News = (props) => {
                     imgUrl={element.urlToImage}
                     url={element.url}
                     author={element.author}
-                    publishedAt={element.publishedAt}
                     name={element.source.name}
                   />
                 </div>
@@ -79,14 +78,14 @@ const News = (props) => {
 };
 
 News.defaultProps = {
-  country: "in",
+  country: "us",
   pagesize: 5,
   category: "genereal",
 };
-News.propTypes = {
-  country: PropTypes.string,
-  pagesize: PropTypes.number,
-  category: PropTypes.string,
-};
+// News.propTypes = {
+//   country: PropTypes.string,
+//   pagesize: PropTypes.number,
+//   category: PropTypes.string,
+// };
 
 export default News;

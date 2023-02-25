@@ -11,30 +11,33 @@ import {
 const AboutPage = () => {
   return (
     <div>
-      <nav>
-        <div>
-          <Link to="/">Home</Link>
-        </div>
-        <div>
-          <Link to="/user/:id">About</Link>
-        </div>
-      </nav>
       {/* <h1>About Page!!!!!!!!!!!!PLZ!!!!!!!!!!!!</h1> */}
       <header class="masthead">
         <p class="masthead-intro">Hi I'm</p>
-        <h1 class="masthead-heading">Hannah!</h1>
+        <h1 class="masthead-heading-1">Hannah!</h1>
+        <h2 class="masthead-heading-2">UX designer & Web developer</h2>
       </header>
       <section class="introduction-section">
         <h1>Introduction</h1>
         <p>
-          I am a construction business owner, part time marketer, and soon to be
-          web developer.
+          I am a web development student currently pursuing my degree in Difloma
+          from Yoobee College. During my time in school, I have gained valuable
+          experience in programming languages such as HTML, CSS, JavaScript, and
+          various web frameworks such as React and node.js. I have also had the
+          opportunity to work on several web development projects, including an
+          e-commerce site and a content management system, which has helped me
+          develop my skills further. As a student, I am passionate about web
+          development and believe in staying up-to-date with emerging
+          technologies and trends in the industry. I am committed to delivering
+          high-quality work, meeting project objectives and deadlines, and
+          working collaboratively with clients and team members to achieve
+          success.
         </p>
         <p>I love the internet, technology, and building beautiful things.</p>
       </section>
       <section class="location-section">
         <h1>Where I'm From</h1>
-        <p>I'm originally from Toronto, Ontario. </p>
+        <p>I'm originally from Seoul, Korea. </p>
       </section>
       <section class="questions-section">
         <h1>More About Me</h1>
@@ -45,11 +48,7 @@ const AboutPage = () => {
           Growing plants and tending to a garden can be a way to connect with
           nature and beautify one's surroundings.
         </p>
-        <h2>What's your dream job?</h2>
-        <p>
-          My dream job is similar to my current job except I would like to be
-          building Website instead of cloth.
-        </p>
+
         <h2>Where do you live?</h2>
         <p>I live on Auckland, New Zealand</p>
 
@@ -61,7 +60,7 @@ const AboutPage = () => {
       </section>
 
       <footer class="content-footer">
-        <p>Say hi to me on these social networks:</p>
+        <p>Say Hi to me on these social Media:</p>
         <ul class="social">
           <li>
             <a class="css-is-deranged" href="https://github.com/Hannah0221">
@@ -76,11 +75,6 @@ const AboutPage = () => {
               Linkedin
             </a>
           </li>
-          {/* <li>
-            <a class="css-is-deranged" href="_INSERT_GOOGLE+_URL_HERE_">
-              Google+
-            </a>
-          </li> */}
         </ul>
       </footer>
     </div>

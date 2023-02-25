@@ -6,7 +6,12 @@ const NewsItem = (props) => {
   return (
     <div className="my-4">
       <div className="card">
-        <img src={imgUrl} className="card-img-top" alt="..." />
+        <img
+          src={!imgUrl ? "https://demofree.sirv.com/nope-not-here.jpg" : imgUrl}
+          className="card-img-top"
+          alt="..."
+        />
+
         <div className="card-body">
           <span className="badge text-bg-success">{name}</span>
           <h4 className="card-title">{title}</h4>
@@ -19,8 +24,7 @@ const NewsItem = (props) => {
           </div>
           <p className="card-text">
             <small className="text-muted">
-              By {!author ? "Unknown" : author} updated{" "}
-              {/* {new Date(publishedAt).toGMTString()} */}
+              By {!author ? "Unknown" : author} updated
             </small>
           </p>
         </div>

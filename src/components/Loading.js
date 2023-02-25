@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import loading from "./loading.gif";
+import loading from "./GeneralUnpleasantApisdorsatalaboriosa-size_restricted.gif";
 
 const Loading = () => {
   return (

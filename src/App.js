@@ -12,10 +12,6 @@ import {
 } from "react-router-dom";
 import AboutPage from "./components/AboutPage";
 
-// import LoadingBar from "react-top-loading-bar";
-// import Search from "./components/Search";
-// import AboutPage from "./components/AboutPage";
-
 const App = () => {
   const pageSize = 6;
   const apiKey = process.env.REACT_APP_NEWS_API;
@@ -26,7 +22,7 @@ const App = () => {
     <div>
       <Router>
         <Navbar />
-        {/* <LoadingBar height={3} color="#f66381" progress={progress} /> */}
+
         <Routes>
           <Route
             exact
